@@ -1,0 +1,126 @@
+body {
+  height: 1700px;
+}
+
+/*------navbar section------*/
+nav {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.navbar {
+  background-color: maroon;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.flex-horizontal-center {
+  justify-content: center;
+}
+.nav {
+  font-size: x-large;
+  color: #ffffff;
+}
+#projecto {
+  margin-left: 10%;
+}
+#contact {
+  margin-left: 10%;
+}
+
+/* ------about section------*/
+#welcome-section {
+  background-image: url(https://media.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+#welcome-h1 {
+  font-size: 80px;
+  font-family: "Aguafina Script", cursive;
+  color: aliceblue;
+  padding: 0%;
+  margin: 0%;
+}
+#welcome-h3 {
+  font-size: xx-large;
+  font-family: "Aguafina Script", cursive;
+  color: aliceblue;
+  padding: 0%;
+  margin: 0%;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+.project-landing_page {
+  width: 400px;
+  height: auto;
+  border: solid gold 3px;
+  border-radius: 2%;
+  list-style: none;
+  display: content;
+  vertical-align: middle;
+}
+#projects {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  display: block;
+  column-count: 3;
+}
+
+h2 {
+  text-align: center;
+}
+/* -----contact section-----*/
+#contact-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  padding: 0%;
+  margin: 0;
+}
+#contact-h1 {
+  font-size: 80px;
+  font-family: "Aguafina Script", cursive;
+  padding: 0%;
+  margin: 0;
+}
+.linkedin {
+  height: 100px;
+}
+.facebook {
+  height: 100px;
+}
+.github {
+  height: 100px;
+}
+@media screen and(max-width: 560px) {
+  #navbar {
+    background-color: rgb(14, 51, 0);
+  }
+}
+@media screen and(max-width: 414px) {
+  #welcome-section {
+    background-color: rgb(51, 0, 48);
+  }
+}
